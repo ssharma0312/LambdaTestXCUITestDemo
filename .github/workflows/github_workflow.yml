@@ -18,18 +18,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-
       - name: Prepare test build
         run: |
           chmod +x prepareTestBuild-rdc.sh
           ./prepareTestBuild-rdc.sh
-
-      - name: Install dependencies
-        run: npm install
 
       - name: List generated files
         run: |

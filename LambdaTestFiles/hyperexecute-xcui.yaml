@@ -15,6 +15,6 @@ framework:
     #   - type: className
     #     values: ["LambdaTestiOSDemoUITests.LambdaTestiOSDemoUITests"]
     deviceSelectionStrategy: any
-    devices: [".*-16"]
+    devices: ["iPhone.*-16"]
 
 jobLabel: ['HyperExecute', 'XCUI', 'Real Device']
