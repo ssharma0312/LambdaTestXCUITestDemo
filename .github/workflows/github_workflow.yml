@@ -1,4 +1,4 @@
-name: Sauce Labs Tests
+name: LambdaTest Tests
 
 on:
   push:
