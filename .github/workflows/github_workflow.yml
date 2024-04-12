@@ -1,0 +1,43 @@
+name: Sauce Labs Tests
+
+on:
+  push:
+    branches:
+      - main
+
+# on:
+#   pull_request:
+#     branches:
+#       - main
+
+jobs:
+  test:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Prepare test build
+        run: |
+          chmod +x prepareTestBuild-rdc.sh
+          ./prepareTestBuild-rdc.sh
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: List generated files
+        run: |
+          ls -R
+
+      - name: Run LambdaTest tests
+        run: |
+          ./runLambdaTest.sh
+        env:
+          LT_USERNAME: ${{secrets.LT_USERNAME}}
+          LT_ACCESS_KEY: ${{secrets.LT_ACCESS_KEY}}
