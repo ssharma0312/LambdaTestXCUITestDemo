@@ -1,0 +1,915 @@
+{"level":"debug","time":"2024-03-16T12:38:47.952-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-16T12:38:48.343-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-16T12:38:49.022-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-16T12:38:49.023-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-16T12:38:49.023-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-16T12:38:49.024-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-16T12:38:49.415-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-16T12:38:49.415-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-16T12:38:49.415-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:38:49.415-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:38:49.415-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:38:49.416-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:38:49.416-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-16T12:38:49.416-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:38:49.416-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:38:49.416-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:38:49.416-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-16T12:38:49.416-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-16T12:38:49.416-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"error","time":"2024-03-16T12:38:53.349-0600","caller":"core/lifecycle.go:279","msg":"2024-03-16T12:38:47-06:00    error    error uploading payload: Error - Please upgrade to virtual device app automation / real devices - Error setting up framework."}
+{"level":"debug","time":"2024-03-16T12:38:53.349-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-16T12:38:53.349-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-16T12:38:53.349-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-16T12:38:53.349-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error error uploading payload: Error - Please upgrade to virtual device app automation / real devices"}
+{"level":"debug","time":"2024-03-16T12:39:15.361-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-16T12:39:20.796-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-16T12:39:21.406-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-16T12:39:21.406-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-16T12:39:21.406-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-16T12:39:21.406-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-16T12:39:21.660-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-16T12:39:21.660-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-16T12:39:21.660-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:39:21.660-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:39:21.660-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:39:21.661-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:39:21.661-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-16T12:39:21.661-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:39:21.661-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:39:21.661-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:39:21.661-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-16T12:39:21.661-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-16T12:39:21.661-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"error","time":"2024-03-16T12:39:25.765-0600","caller":"core/lifecycle.go:279","msg":"2024-03-16T12:39:15-06:00    error    error uploading payload: Error - Please upgrade to virtual device app automation / real devices - Error setting up framework."}
+{"level":"debug","time":"2024-03-16T12:39:25.765-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-16T12:39:25.765-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-16T12:39:25.765-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-16T12:39:25.765-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error error uploading payload: Error - Please upgrade to virtual device app automation / real devices"}
+{"level":"debug","time":"2024-03-16T12:45:27.609-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-16T12:45:28.043-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-16T12:45:29.092-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-16T12:45:29.093-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-16T12:45:29.094-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-16T12:45:29.094-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-16T12:45:29.499-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-16T12:45:29.499-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-16T12:45:29.499-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:45:29.499-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:45:29.499-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:45:29.499-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:45:29.499-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-16T12:45:29.499-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:45:29.499-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:45:29.499-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-16T12:45:29.500-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-16T12:45:29.500-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-16T12:45:29.500-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"error","time":"2024-03-16T12:45:33.496-0600","caller":"core/lifecycle.go:279","msg":"2024-03-16T12:45:27-06:00    error    error uploading payload: Error - Please upgrade to virtual device app automation / real devices - Error setting up framework."}
+{"level":"debug","time":"2024-03-16T12:45:33.496-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-16T12:45:33.497-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-16T12:45:33.497-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-16T12:45:33.497-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error error uploading payload: Error - Please upgrade to virtual device app automation / real devices"}
+{"level":"debug","time":"2024-03-21T15:15:21.145-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-21T15:15:21.596-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-21T15:15:22.482-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-21T15:15:22.482-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-21T15:15:22.483-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T15:15:22.483-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T15:15:22.865-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-21T15:15:22.865-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-21T15:15:22.865-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:15:22.865-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:15:22.865-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:15:22.865-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:15:22.866-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-21T15:15:22.866-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:15:22.866-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:15:22.866-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:15:22.866-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-21T15:15:22.866-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T15:15:22.866-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-03-21T15:15:27.826-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016020161711055727767741"}
+{"level":"info","time":"2024-03-21T15:15:27.826-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016020161711055727732473"}
+{"level":"warn","time":"2024-03-21T15:15:29.258-0600","caller":"core/lifecycle.go:309","msg":"No tests discovered, Quitting!!"}
+{"level":"debug","time":"2024-03-21T15:15:29.258-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-21T15:15:29.258-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-21T15:15:29.258-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-21T15:15:29.258-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error No tests discovered."}
+{"level":"debug","time":"2024-03-21T15:16:39.312-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-21T15:16:39.550-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-21T15:16:40.414-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-21T15:16:40.415-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-21T15:16:40.415-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T15:16:40.415-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T15:16:40.943-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-21T15:16:40.943-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-21T15:16:40.943-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:16:40.944-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:16:40.944-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:16:40.944-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:16:40.944-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-21T15:16:40.944-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:16:40.944-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:16:40.944-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:16:40.944-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-21T15:16:40.944-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T15:16:40.945-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-03-21T15:16:44.832-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016026231711055804847372"}
+{"level":"info","time":"2024-03-21T15:16:46.061-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016020161711055806022241"}
+{"level":"info","time":"2024-03-21T15:16:47.801-0600","caller":"core/lifecycle.go:318","msg":"Total tests discovered: 4"}
+{"level":"info","time":"2024-03-21T15:16:48.272-0600","caller":"core/lifecycle.go:389","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-03-21T15:16:48.273-0600","caller":"core/lifecycle.go:419","msg":"Job ID: a8ce670e-0409-453f-9729-8cea92e7fabb"}
+{"level":"debug","time":"2024-03-21T15:16:48.273-0600","caller":"core/lifecycle.go:425","msg":"User has provided ios/xcui as test type for the job with ID a8ce670e-0409-453f-9729-8cea92e7fabb"}
+{"level":"debug","time":"2024-03-21T15:16:48.273-0600","caller":"receptionmanager/setup.go:207","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-03-21T15:16:48.274-0600","caller":"receptionmanager/setup.go:149","msg":"Uploading yaml : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T15:16:48.274-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.90 kB, source path /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T15:16:48.274-0600","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2024-03-21T15:16:48.917-0600","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"info","time":"2024-03-21T15:16:50.737-0600","caller":"utils/azcopy.go:118","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2024-03-21T15:16:50.737-0600","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2024-03-21T15:16:59.624-0600","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4ma8ce670e-0409-453f-9729-8cea92e7fabb\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:16:59.626-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=a8ce670e-0409-453f-9729-8cea92e7fabb\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T15:16:59.626-0600","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-03-21T15:16:59.626-0600","caller":"jobmanager/setup.go:149","msg":"Task id: efbd46b1-8080-4f8c-a572-dc4236e42266"}
+{"level":"debug","time":"2024-03-21T15:16:59.626-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: efbd46b1-8080-4f8c-a572-dc4236e42266"}
+{"level":"debug","time":"2024-03-21T15:16:59.627-0600","caller":"jobmanager/setup.go:149","msg":"Task id: 376ac540-a81d-404b-94d4-145426547cb2"}
+{"level":"debug","time":"2024-03-21T15:16:59.627-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 376ac540-a81d-404b-94d4-145426547cb2"}
+{"level":"info","time":"2024-03-21T15:17:52.138-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mLambdaTestiOSDemoUITests/testAddRentalProperties (12s)\u001b[0m\n"}
+{"level":"info","time":"2024-03-21T15:18:03.468-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mLambdaTestiOSDemoUITestsLaunchTests/testLaunch (7s)\u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T15:46:24.148-0600","caller":"jobmanager/setup.go:76","msg":"Retrying to poll job details"}
+{"level":"debug","time":"2024-03-21T15:46:24.148-0600","caller":"taskstagemanager/tracker.go:202","msg":"Retrying to poll stage details"}
+{"level":"error","time":"2024-03-21T15:50:19.260-0600","caller":"jobmanager/setup.go:175","msg":"2024-03-21T15:16:39-06:00    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2024-03-21T15:50:19.261-0600","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T15:50:19.262-0600","caller":"core/lifecycle.go:764","msg":"Context canceled"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"core/lifecycle.go:767","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    32m37s"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             24s"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         4"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"error","time":"2024-03-21T15:50:19.262-0600","caller":"core/lifecycle.go:770","msg":"2024-03-21T15:16:39-06:00    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=a8ce670e-0409-453f-9729-8cea92e7fabb\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"debug","time":"2024-03-21T15:50:19.262-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-21T15:50:19.263-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-03-21T15:50:19.262-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"info","time":"2024-03-21T15:50:19.263-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2024-03-21T15:50:19.263-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           50.00%"}
+{"level":"info","time":"2024-03-21T15:50:19.263-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m50.00%\u001b[0m"}
+{"level":"info","time":"2024-03-21T15:50:19.263-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2024-03-21T15:50:19.263-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"debug","time":"2024-03-21T15:50:19.263-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-03-21T15:50:19.263-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"debug","time":"2024-03-21T15:50:19.263-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error Job aborted."}
+{"level":"info","time":"2024-03-21T15:50:19.263-0600","caller":"jobmanager/JobSummaryManager.go:41","msg":""}
+{"level":"debug","time":"2024-03-21T16:33:46.956-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-21T16:33:47.225-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-21T16:33:48.078-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-21T16:33:48.078-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-21T16:33:48.078-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T16:33:48.078-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T16:33:48.624-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-21T16:33:48.624-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-21T16:33:48.624-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-21T16:33:48.624-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T16:33:48.625-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-03-21T16:33:51.624-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016026231711060431626971"}
+{"level":"info","time":"2024-03-21T16:33:53.235-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016053741711060433236325"}
+{"level":"info","time":"2024-03-21T16:33:54.509-0600","caller":"core/lifecycle.go:318","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-03-21T16:33:55.051-0600","caller":"core/lifecycle.go:389","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-03-21T16:33:55.051-0600","caller":"core/lifecycle.go:419","msg":"Job ID: cc5be7bb-bb91-47d1-96d3-96ec38afe49c"}
+{"level":"debug","time":"2024-03-21T16:33:55.051-0600","caller":"core/lifecycle.go:425","msg":"User has provided ios/xcui as test type for the job with ID cc5be7bb-bb91-47d1-96d3-96ec38afe49c"}
+{"level":"debug","time":"2024-03-21T16:33:55.052-0600","caller":"receptionmanager/setup.go:207","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-03-21T16:33:55.053-0600","caller":"receptionmanager/setup.go:149","msg":"Uploading yaml : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T16:33:55.053-0600","caller":"storage/azure.go:55","msg":"Payload size: 3.04 kB, source path /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-03-21T16:34:04.147-0600","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4mcc5be7bb-bb91-47d1-96d3-96ec38afe49c\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-03-21T16:34:04.147-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=cc5be7bb-bb91-47d1-96d3-96ec38afe49c\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T16:34:04.147-0600","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-03-21T16:34:04.147-0600","caller":"jobmanager/setup.go:149","msg":"Task id: e4dbbe35-261d-40d2-b5e3-aef9238ddee2"}
+{"level":"debug","time":"2024-03-21T16:34:04.147-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: e4dbbe35-261d-40d2-b5e3-aef9238ddee2"}
+{"level":"debug","time":"2024-03-21T16:34:04.148-0600","caller":"jobmanager/setup.go:149","msg":"Task id: c393b45f-fdc7-40d0-8c67-905ce3810208"}
+{"level":"debug","time":"2024-03-21T16:34:04.148-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: c393b45f-fdc7-40d0-8c67-905ce3810208"}
+{"level":"debug","time":"2024-03-21T17:01:48.630-0600","caller":"taskstagemanager/tracker.go:202","msg":"Retrying to poll stage details"}
+{"level":"debug","time":"2024-03-21T17:01:48.780-0600","caller":"jobmanager/setup.go:76","msg":"Retrying to poll job details"}
+{"level":"debug","time":"2024-03-21T17:13:07.154-0600","caller":"jobmanager/setup.go:76","msg":"Retrying to poll job details"}
+{"level":"debug","time":"2024-03-21T17:13:07.154-0600","caller":"taskstagemanager/tracker.go:202","msg":"Retrying to poll stage details"}
+{"level":"error","time":"2024-03-21T17:13:17.479-0600","caller":"jobmanager/setup.go:175","msg":"2024-03-21T16:33:46-06:00    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2024-03-21T17:13:17.479-0600","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2024-03-21T17:13:17.479-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T17:13:17.480-0600","caller":"core/lifecycle.go:764","msg":"Context canceled"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    0s"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"core/lifecycle.go:767","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             0s"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         7"}
+{"level":"error","time":"2024-03-21T17:13:17.480-0600","caller":"core/lifecycle.go:770","msg":"2024-03-21T16:33:46-06:00    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=cc5be7bb-bb91-47d1-96d3-96ec38afe49c\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T17:13:17.480-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-21T17:13:17.480-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"debug","time":"2024-03-21T17:13:17.480-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"debug","time":"2024-03-21T17:13:17.480-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error Job aborted."}
+{"level":"debug","time":"2024-03-21T17:13:17.480-0600","caller":"cmd/bin.go:270","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2024-03-21T17:13:17.480-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           0.00%"}
+{"level":"debug","time":"2024-03-21T17:52:23.572-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-21T17:52:24.025-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-21T17:52:25.201-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-21T17:52:25.201-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-21T17:52:25.201-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T17:52:25.201-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T17:52:25.420-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-21T17:52:25.420-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-21T17:52:25.420-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:52:25.422-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:52:25.422-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:52:25.422-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:52:25.422-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-21T17:52:25.422-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:52:25.422-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:52:25.422-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:52:25.423-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-21T17:52:25.423-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T17:52:25.423-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-03-21T17:52:28.658-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016053741711065148701302"}
+{"level":"info","time":"2024-03-21T17:52:30.627-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016020161711065150670791"}
+{"level":"info","time":"2024-03-21T17:52:32.953-0600","caller":"core/lifecycle.go:318","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-03-21T17:52:33.305-0600","caller":"core/lifecycle.go:389","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-03-21T17:52:33.305-0600","caller":"core/lifecycle.go:419","msg":"Job ID: a0828d07-b306-4783-9833-d86dc1fd087b"}
+{"level":"debug","time":"2024-03-21T17:52:33.305-0600","caller":"core/lifecycle.go:425","msg":"User has provided ios/xcui as test type for the job with ID a0828d07-b306-4783-9833-d86dc1fd087b"}
+{"level":"debug","time":"2024-03-21T17:52:33.307-0600","caller":"receptionmanager/setup.go:207","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-03-21T17:52:33.308-0600","caller":"receptionmanager/setup.go:149","msg":"Uploading yaml : /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T17:52:33.308-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.77 kB, source path /Users/sahilsharma/Documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-03-21T17:52:42.507-0600","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4ma0828d07-b306-4783-9833-d86dc1fd087b\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-03-21T17:52:42.507-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=a0828d07-b306-4783-9833-d86dc1fd087b\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T17:52:42.507-0600","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-03-21T17:52:42.507-0600","caller":"jobmanager/setup.go:149","msg":"Task id: a7a993da-2d90-4e4f-a374-1df4a13425f3"}
+{"level":"debug","time":"2024-03-21T17:52:42.507-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: a7a993da-2d90-4e4f-a374-1df4a13425f3"}
+{"level":"debug","time":"2024-03-21T17:52:42.507-0600","caller":"jobmanager/setup.go:149","msg":"Task id: a56678b3-b6f0-4ace-a197-25fbfe432ee1"}
+{"level":"debug","time":"2024-03-21T17:52:42.507-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: a56678b3-b6f0-4ace-a197-25fbfe432ee1"}
+{"level":"debug","time":"2024-03-21T18:02:44.969-0600","caller":"taskstagemanager/tracker.go:221","msg":"Retrying to poll stage details"}
+{"level":"error","time":"2024-03-21T18:24:17.502-0600","caller":"jobmanager/setup.go:175","msg":"2024-03-21T17:52:23-06:00    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2024-03-21T18:24:17.504-0600","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2024-03-21T18:24:17.504-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"info","time":"2024-03-21T18:24:17.504-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2024-03-21T18:24:17.504-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    0s"}
+{"level":"debug","time":"2024-03-21T18:24:17.504-0600","caller":"core/lifecycle.go:764","msg":"Context canceled"}
+{"level":"info","time":"2024-03-21T18:24:17.504-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2024-03-21T18:24:17.504-0600","caller":"core/lifecycle.go:767","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-03-21T18:24:17.504-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             0s"}
+{"level":"error","time":"2024-03-21T18:24:17.504-0600","caller":"core/lifecycle.go:770","msg":"2024-03-21T17:52:23-06:00    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2024-03-21T18:24:17.504-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         7"}
+{"level":"info","time":"2024-03-21T18:24:17.505-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=a0828d07-b306-4783-9833-d86dc1fd087b\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T18:24:17.505-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-21T18:24:17.505-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-21T18:24:17.505-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-03-21T18:24:17.505-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"debug","time":"2024-03-21T18:24:17.505-0600","caller":"cmd/bin.go:270","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2024-03-21T18:24:17.505-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"debug","time":"2024-03-21T18:24:17.505-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error Job aborted."}
+{"level":"info","time":"2024-03-21T18:24:17.505-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"debug","time":"2024-03-21T21:49:11.647-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-21T21:49:12.448-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-21T21:49:14.876-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-21T21:49:14.877-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-21T21:49:14.877-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T21:49:14.877-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-21T21:49:15.405-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-21T21:49:15.406-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-21T21:49:15.406-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-21T21:49:15.406-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T21:49:15.407-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-03-21T21:49:19.400-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016043281711079359471641"}
+{"level":"info","time":"2024-03-21T21:49:20.982-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016026231711079361046874"}
+{"level":"info","time":"2024-03-21T21:49:22.852-0600","caller":"core/lifecycle.go:318","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-03-21T21:49:23.291-0600","caller":"core/lifecycle.go:389","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-03-21T21:49:23.292-0600","caller":"core/lifecycle.go:419","msg":"Job ID: 39bf062b-b138-4967-8d4b-5baae23b8a3c"}
+{"level":"debug","time":"2024-03-21T21:49:23.292-0600","caller":"core/lifecycle.go:425","msg":"User has provided ios/xcui as test type for the job with ID 39bf062b-b138-4967-8d4b-5baae23b8a3c"}
+{"level":"debug","time":"2024-03-21T21:49:23.293-0600","caller":"receptionmanager/setup.go:207","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-03-21T21:49:23.295-0600","caller":"receptionmanager/setup.go:149","msg":"Uploading yaml : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-21T21:49:23.295-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.77 kB, source path /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-03-21T21:49:32.645-0600","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4m39bf062b-b138-4967-8d4b-5baae23b8a3c\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-03-21T21:49:32.645-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=39bf062b-b138-4967-8d4b-5baae23b8a3c\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T21:49:32.646-0600","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-03-21T21:49:32.646-0600","caller":"jobmanager/setup.go:149","msg":"Task id: 306fa3fc-2075-438f-9d2f-39829ed06808"}
+{"level":"debug","time":"2024-03-21T21:49:32.646-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 306fa3fc-2075-438f-9d2f-39829ed06808"}
+{"level":"debug","time":"2024-03-21T21:49:32.646-0600","caller":"jobmanager/setup.go:149","msg":"Task id: 96842341-5fbf-45ec-995e-0fddb34e5278"}
+{"level":"debug","time":"2024-03-21T21:49:32.646-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 96842341-5fbf-45ec-995e-0fddb34e5278"}
+{"level":"error","time":"2024-03-21T22:21:47.733-0600","caller":"jobmanager/setup.go:175","msg":"2024-03-21T21:49:11-06:00    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2024-03-21T22:21:47.735-0600","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2024-03-21T22:21:47.735-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"info","time":"2024-03-21T22:21:47.736-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2024-03-21T22:21:47.736-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    0s"}
+{"level":"debug","time":"2024-03-21T22:21:47.736-0600","caller":"core/lifecycle.go:764","msg":"Context canceled"}
+{"level":"info","time":"2024-03-21T22:21:47.736-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2024-03-21T22:21:47.736-0600","caller":"core/lifecycle.go:767","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-03-21T22:21:47.736-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             0s"}
+{"level":"error","time":"2024-03-21T22:21:47.736-0600","caller":"core/lifecycle.go:770","msg":"2024-03-21T21:49:11-06:00    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2024-03-21T22:21:47.736-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         7"}
+{"level":"info","time":"2024-03-21T22:21:47.737-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"info","time":"2024-03-21T22:21:47.736-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=39bf062b-b138-4967-8d4b-5baae23b8a3c\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-21T22:21:47.737-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-21T22:21:47.737-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-03-21T22:21:47.737-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2024-03-21T22:21:47.737-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"debug","time":"2024-03-21T22:21:47.737-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-03-21T22:21:47.737-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"debug","time":"2024-03-21T22:21:47.737-0600","caller":"cmd/bin.go:270","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2024-03-21T22:21:47.737-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           0.00%"}
+{"level":"debug","time":"2024-03-21T22:21:47.737-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error Job aborted."}
+{"level":"info","time":"2024-03-21T22:21:47.738-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m100.00%\u001b[0m"}
+{"level":"debug","time":"2024-03-23T15:19:48.855-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-23T15:19:49.323-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"error","time":"2024-03-23T15:19:49.325-0600","caller":"globalconfigvalidator/setup.go:44","msg":"2024-03-23T15:19:48-06:00    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2024-03-23T15:19:49.326-0600","caller":"core/lifecycle.go:79","msg":"2024-03-23T15:19:48-06:00    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"debug","time":"2024-03-23T15:19:49.326-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-23T15:19:49.326-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-23T15:19:49.326-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-23T15:19:49.326-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"debug","time":"2024-03-23T15:20:18.781-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-03-23T15:20:19.207-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.168} "}
+{"level":"debug","time":"2024-03-23T15:20:20.418-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-23T15:20:20.419-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-23T15:20:20.419-0600","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-23T15:20:20.420-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-03-23T15:20:20.833-0600","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-03-23T15:20:20.835-0600","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: false"}
+{"level":"info","time":"2024-03-23T15:20:20.835-0600","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:20:20.835-0600","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:20:20.835-0600","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:20:20.835-0600","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:20:20.836-0600","caller":"models/HypertestYamlConfig.go:480","msg":"Framework:"}
+{"level":"info","time":"2024-03-23T15:20:20.836-0600","caller":"models/HypertestYamlConfig.go:481","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:20:20.836-0600","caller":"models/HypertestYamlConfig.go:513","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:20:20.836-0600","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:20:20.836-0600","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-23T15:20:20.836-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-23T15:20:20.836-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-03-23T15:20:24.034-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016026231711228824039496"}
+{"level":"info","time":"2024-03-23T15:20:26.693-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016020161711228826684829"}
+{"level":"info","time":"2024-03-23T15:20:28.764-0600","caller":"core/lifecycle.go:318","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-03-23T15:20:29.141-0600","caller":"core/lifecycle.go:389","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-03-23T15:20:29.142-0600","caller":"core/lifecycle.go:419","msg":"Job ID: d9a7ef8e-fc40-4134-a2ad-5abef3ff201b"}
+{"level":"debug","time":"2024-03-23T15:20:29.142-0600","caller":"core/lifecycle.go:425","msg":"User has provided ios/xcui as test type for the job with ID d9a7ef8e-fc40-4134-a2ad-5abef3ff201b"}
+{"level":"debug","time":"2024-03-23T15:20:29.144-0600","caller":"receptionmanager/setup.go:207","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-03-23T15:20:29.146-0600","caller":"receptionmanager/setup.go:149","msg":"Uploading yaml : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-23T15:20:29.146-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.77 kB, source path /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-03-23T15:20:38.787-0600","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4md9a7ef8e-fc40-4134-a2ad-5abef3ff201b\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:20:38.788-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=d9a7ef8e-fc40-4134-a2ad-5abef3ff201b\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-23T15:20:38.788-0600","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-03-23T15:20:38.788-0600","caller":"jobmanager/setup.go:149","msg":"Task id: 71e7c175-0d46-438f-9df7-de278d6a1ac1"}
+{"level":"debug","time":"2024-03-23T15:20:38.788-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 71e7c175-0d46-438f-9df7-de278d6a1ac1"}
+{"level":"debug","time":"2024-03-23T15:20:38.788-0600","caller":"jobmanager/setup.go:149","msg":"Task id: 59573323-c497-4508-bcfd-d44da555d613"}
+{"level":"debug","time":"2024-03-23T15:20:38.788-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 59573323-c497-4508-bcfd-d44da555d613"}
+{"level":"debug","time":"2024-03-23T15:22:25.326-0600","caller":"cmd/bin.go:278","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-03-23T15:22:25.327-0600","caller":"cmd/bin.go:279","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2024-03-23T15:22:25.327-0600","caller":"cmd/bin.go:285","msg":"Sending request to abort job"}
+{"level":"debug","time":"2024-03-23T15:22:25.835-0600","caller":"cmd/bin.go:294","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2024-03-23T15:22:25.836-0600","caller":"core/lifecycle.go:764","msg":"Context canceled"}
+{"level":"info","time":"2024-03-23T15:22:25.836-0600","caller":"core/lifecycle.go:767","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-03-23T15:22:25.836-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=d9a7ef8e-fc40-4134-a2ad-5abef3ff201b\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-03-23T15:22:25.836-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-23T15:22:25.836-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-23T15:22:25.836-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-23T15:22:25.836-0600","caller":"cmd/bin.go:270","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-03-23T15:22:25.836-0600","caller":"cmd/bin.go:298","msg":"Go routines exited within timeout"}
+{"level":"debug","time":"2024-04-08T15:26:24.169-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-08T15:26:24.671-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.174} "}
+{"level":"info","time":"2024-04-08T15:26:24.671-0600","caller":"cmd/bin.go:122","msg":"Current binary version 0.2.168 is less than max upstream version 0.2.174."}
+{"level":"info","time":"2024-04-08T15:26:24.671-0600","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-04-08T15:26:24.671-0600","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/darwin/hyperexecute"}
+{"level":"debug","time":"2024-04-08T15:26:27.106-0600","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-04-08T15:26:27.106-0600","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2024-04-08T15:26:27.106-0600","caller":"cmd/bin.go:132","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2024-04-08T15:29:30.036-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-08T15:29:30.460-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.174} "}
+{"level":"debug","time":"2024-04-08T15:29:31.307-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-08T15:29:31.307-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-08T15:29:31.307-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-08T15:29:31.309-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-08T15:29:31.834-0600","caller":"yamlconfigmanager/setup.go:2040","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-08T15:29:31.834-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-08T15:29:31.834-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:29:31.834-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:29:31.835-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:29:31.835-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:29:31.835-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-08T15:29:31.835-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:29:31.835-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:29:31.835-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:29:31.835-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-08T15:29:31.835-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-08T15:29:31.835-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"error","time":"2024-04-08T15:29:35.924-0600","caller":"core/lifecycle.go:278","msg":"2024-04-08T15:29:30-06:00    error    error uploading payload: Error - Please upgrade to virtual device app automation / real devices - Error setting up framework."}
+{"level":"debug","time":"2024-04-08T15:29:35.925-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-08T15:29:35.925-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-08T15:29:35.925-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-08T15:29:35.925-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error error uploading payload: Error - Please upgrade to virtual device app automation / real devices"}
+{"level":"debug","time":"2024-04-08T15:48:12.527-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-08T15:48:12.935-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.174} "}
+{"level":"debug","time":"2024-04-08T15:48:13.794-0600","caller":"core/lifecycle.go:117","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-08T15:48:13.796-0600","caller":"core/lifecycle.go:120","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-08T15:48:13.796-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-08T15:48:13.796-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-08T15:48:14.027-0600","caller":"yamlconfigmanager/setup.go:2040","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-08T15:48:14.027-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-08T15:48:14.027-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:48:14.029-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:48:14.029-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:48:14.029-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:48:14.029-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-08T15:48:14.029-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:48:14.029-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:48:14.029-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:48:14.029-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-08T15:48:14.029-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-08T15:48:14.030-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-08T15:48:17.043-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016026231712612897014946"}
+{"level":"info","time":"2024-04-08T15:48:22.613-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016026231712612902586390"}
+{"level":"info","time":"2024-04-08T15:48:23.953-0600","caller":"core/lifecycle.go:321","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-04-08T15:48:24.553-0600","caller":"core/lifecycle.go:394","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-04-08T15:48:24.553-0600","caller":"core/lifecycle.go:424","msg":"Job ID: 23af247d-96f8-41c4-a0d9-6116f07b8ac6"}
+{"level":"debug","time":"2024-04-08T15:48:24.553-0600","caller":"core/lifecycle.go:430","msg":"User has provided ios/xcui as test type for the job with ID 23af247d-96f8-41c4-a0d9-6116f07b8ac6"}
+{"level":"debug","time":"2024-04-08T15:48:24.555-0600","caller":"receptionmanager/setup.go:225","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-04-08T15:48:24.557-0600","caller":"receptionmanager/setup.go:157","msg":"Uploading yaml : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-04-08T15:48:24.559-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.80 kB, source path /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-04-08T15:48:33.980-0600","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4m23af247d-96f8-41c4-a0d9-6116f07b8ac6\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-04-08T15:48:33.981-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=23af247d-96f8-41c4-a0d9-6116f07b8ac6\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-08T15:48:33.981-0600","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-04-08T15:48:33.981-0600","caller":"jobmanager/setup.go:149","msg":"Task id: 28be3e22-1163-4232-8068-e6e66d11fe76"}
+{"level":"debug","time":"2024-04-08T15:48:33.981-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 28be3e22-1163-4232-8068-e6e66d11fe76"}
+{"level":"debug","time":"2024-04-08T15:48:33.981-0600","caller":"jobmanager/setup.go:149","msg":"Task id: b27ddd6b-3bac-4b13-993e-73540b05ff90"}
+{"level":"debug","time":"2024-04-08T15:48:33.981-0600","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: b27ddd6b-3bac-4b13-993e-73540b05ff90"}
+{"level":"debug","time":"2024-04-08T16:32:50.304-0600","caller":"taskstagemanager/tracker.go:202","msg":"Retrying to poll stage details"}
+{"level":"debug","time":"2024-04-08T16:32:50.338-0600","caller":"jobmanager/setup.go:76","msg":"Retrying to poll job details"}
+{"level":"error","time":"2024-04-08T16:33:00.795-0600","caller":"jobmanager/setup.go:175","msg":"2024-04-08T15:48:12-06:00    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2024-04-08T16:33:00.795-0600","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2024-04-08T16:33:00.796-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"info","time":"2024-04-08T16:33:00.797-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2024-04-08T16:33:00.797-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    0s"}
+{"level":"info","time":"2024-04-08T16:33:00.797-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"debug","time":"2024-04-08T16:33:00.797-0600","caller":"core/lifecycle.go:769","msg":"Context canceled"}
+{"level":"info","time":"2024-04-08T16:33:00.798-0600","caller":"core/lifecycle.go:772","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-04-08T16:33:00.798-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             0s"}
+{"level":"info","time":"2024-04-08T16:33:00.798-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         7"}
+{"level":"error","time":"2024-04-08T16:33:00.798-0600","caller":"core/lifecycle.go:775","msg":"2024-04-08T15:48:12-06:00    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2024-04-08T16:33:00.798-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"info","time":"2024-04-08T16:33:00.798-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2024-04-08T16:33:00.798-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"info","time":"2024-04-08T16:33:00.798-0600","caller":"jobmanager/setup.go:368","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=23af247d-96f8-41c4-a0d9-6116f07b8ac6\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-08T16:33:00.799-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-08T16:33:00.799-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-08T16:33:00.799-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-04-08T16:33:00.799-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"debug","time":"2024-04-08T16:33:00.799-0600","caller":"cmd/bin.go:309","msg":"Exiting application due to error Job aborted."}
+{"level":"info","time":"2024-04-08T16:33:00.799-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           0.00%"}
+{"level":"debug","time":"2024-04-08T16:33:00.799-0600","caller":"cmd/bin.go:270","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2024-04-08T16:33:00.799-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m100.00%\u001b[0m"}
+{"level":"info","time":"2024-04-08T16:33:00.799-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2024-04-08T16:33:00.799-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2024-04-08T16:33:00.799-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2024-04-08T16:33:00.799-0600","caller":"jobmanager/JobSummaryManager.go:41","msg":""}
+{"level":"debug","time":"2024-04-09T14:34:42.080-0600","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-09T14:34:42.518-0600","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"info","time":"2024-04-09T14:34:42.518-0600","caller":"cmd/bin.go:122","msg":"Current binary version 0.2.174 is less than max upstream version 0.2.175."}
+{"level":"info","time":"2024-04-09T14:34:42.518-0600","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-04-09T14:34:42.519-0600","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/darwin/hyperexecute"}
+{"level":"debug","time":"2024-04-09T14:34:46.516-0600","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-04-09T14:34:46.516-0600","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2024-04-09T14:34:46.517-0600","caller":"cmd/bin.go:132","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2024-04-09T14:35:01.203-0600","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-09T14:35:01.678-0600","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-09T14:35:02.892-0600","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-09T14:35:02.893-0600","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-09T14:35:02.893-0600","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-09T14:35:02.894-0600","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-09T14:35:02.894-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-09T14:35:02.894-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-09T14:35:03.441-0600","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-09T14:35:03.442-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-09T14:35:03.442-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-09T14:35:03.442-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-09T14:35:03.443-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-09T14:35:03.443-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-09T14:35:03.443-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-09T14:35:03.443-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-09T14:35:03.443-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-09T14:35:03.443-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-09T14:35:03.443-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-09T14:35:03.443-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-09T14:35:03.443-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-09T14:35:07.012-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016020161712694907033597"}
+{"level":"info","time":"2024-04-09T14:35:07.647-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016053741712694907667546"}
+{"level":"info","time":"2024-04-09T14:35:09.170-0600","caller":"core/lifecycle.go:314","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-04-09T14:35:09.503-0600","caller":"core/lifecycle.go:387","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-04-09T14:35:09.503-0600","caller":"core/lifecycle.go:429","msg":"Job ID: bf32ed06-1f9f-48e6-949c-92108dfdfdf7"}
+{"level":"debug","time":"2024-04-09T14:35:09.503-0600","caller":"core/lifecycle.go:435","msg":"User has provided ios/xcui as test type for the job with ID bf32ed06-1f9f-48e6-949c-92108dfdfdf7"}
+{"level":"debug","time":"2024-04-09T14:35:09.505-0600","caller":"receptionmanager/setup.go:225","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-04-09T14:35:09.507-0600","caller":"receptionmanager/setup.go:157","msg":"Uploading yaml : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-04-09T14:35:09.508-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.83 kB, source path /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-04-09T14:35:18.876-0600","caller":"jobmanager/setup.go:124","msg":"Job \u001b[1m\u001b[4mbf32ed06-1f9f-48e6-949c-92108dfdfdf7\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-04-09T14:35:18.876-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=bf32ed06-1f9f-48e6-949c-92108dfdfdf7\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-09T14:35:18.876-0600","caller":"jobmanager/setup.go:133","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-04-09T14:35:18.876-0600","caller":"jobmanager/setup.go:144","msg":"Task id: f77a8568-fd5a-4e00-9090-db396db25ccd"}
+{"level":"debug","time":"2024-04-09T14:35:18.876-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: f77a8568-fd5a-4e00-9090-db396db25ccd"}
+{"level":"debug","time":"2024-04-09T14:35:18.876-0600","caller":"jobmanager/setup.go:144","msg":"Task id: dcb9eb79-2eb1-499b-af9d-10de152d8e46"}
+{"level":"debug","time":"2024-04-09T14:35:18.876-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: dcb9eb79-2eb1-499b-af9d-10de152d8e46"}
+{"level":"error","time":"2024-04-09T16:05:18.957-0600","caller":"jobmanager/setup.go:170","msg":"2024-04-09T14:35:01-06:00    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2024-04-09T16:05:18.961-0600","caller":"jobmanager/setup.go:199","msg":"\n\nJob status"}
+{"level":"info","time":"2024-04-09T16:05:18.962-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"debug","time":"2024-04-09T16:05:18.963-0600","caller":"core/lifecycle.go:774","msg":"Context canceled"}
+{"level":"info","time":"2024-04-09T16:05:18.963-0600","caller":"core/lifecycle.go:777","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-04-09T16:05:18.963-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2024-04-09T16:05:18.963-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    0s"}
+{"level":"info","time":"2024-04-09T16:05:18.963-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"error","time":"2024-04-09T16:05:18.964-0600","caller":"core/lifecycle.go:780","msg":"2024-04-09T14:35:01-06:00    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2024-04-09T16:05:18.964-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             0s"}
+{"level":"info","time":"2024-04-09T16:05:18.964-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         7"}
+{"level":"info","time":"2024-04-09T16:05:18.964-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=bf32ed06-1f9f-48e6-949c-92108dfdfdf7\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2024-04-09T16:05:18.964-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"info","time":"2024-04-09T16:05:18.965-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"debug","time":"2024-04-09T16:05:18.964-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"info","time":"2024-04-09T16:05:18.965-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"debug","time":"2024-04-09T16:05:18.965-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-09T16:05:18.965-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-04-09T16:05:18.965-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"debug","time":"2024-04-09T16:05:18.965-0600","caller":"cmd/bin.go:329","msg":"Exiting application due to error Job aborted."}
+{"level":"info","time":"2024-04-09T16:05:18.965-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2024-04-09T16:05:18.965-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m100.00%\u001b[0m"}
+{"level":"debug","time":"2024-04-09T16:05:18.965-0600","caller":"cmd/bin.go:290","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2024-04-09T16:05:18.965-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2024-04-09T16:05:18.966-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2024-04-09T16:05:18.966-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2024-04-09T16:05:18.966-0600","caller":"jobmanager/JobSummaryManager.go:41","msg":""}
+{"level":"debug","time":"2024-04-10T13:02:07.175-0600","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-10T13:02:07.868-0600","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T13:02:08.979-0600","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T13:02:08.979-0600","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T13:02:08.979-0600","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T13:02:08.980-0600","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T13:02:08.980-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:02:08.980-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:02:09.366-0600","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-10T13:02:09.367-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T13:02:09.367-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:02:09.368-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:02:09.368-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:02:09.368-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:02:09.368-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T13:02:09.368-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:02:09.368-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:02:09.368-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:02:09.368-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T13:02:09.368-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:02:09.369-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T13:02:13.210-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016061471712775733262250"}
+{"level":"info","time":"2024-04-10T13:02:14.271-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP10160161211712775734317217"}
+{"level":"info","time":"2024-04-10T13:02:15.509-0600","caller":"core/lifecycle.go:314","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-04-10T13:02:15.857-0600","caller":"core/lifecycle.go:387","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-04-10T13:02:15.857-0600","caller":"core/lifecycle.go:429","msg":"Job ID: 072cb19a-7826-498d-9bfd-f78067be7a3f"}
+{"level":"debug","time":"2024-04-10T13:02:15.857-0600","caller":"core/lifecycle.go:435","msg":"User has provided ios/xcui as test type for the job with ID 072cb19a-7826-498d-9bfd-f78067be7a3f"}
+{"level":"debug","time":"2024-04-10T13:02:15.858-0600","caller":"receptionmanager/setup.go:225","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-04-10T13:02:15.861-0600","caller":"receptionmanager/setup.go:157","msg":"Uploading yaml : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:02:15.862-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.83 kB, source path /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-04-10T13:02:25.860-0600","caller":"jobmanager/setup.go:124","msg":"Job \u001b[1m\u001b[4m072cb19a-7826-498d-9bfd-f78067be7a3f\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:02:25.860-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=072cb19a-7826-498d-9bfd-f78067be7a3f\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:02:25.860-0600","caller":"jobmanager/setup.go:133","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-04-10T13:02:25.860-0600","caller":"jobmanager/setup.go:144","msg":"Task id: a8c9a922-c060-4225-867c-e584837dfcdf"}
+{"level":"debug","time":"2024-04-10T13:02:25.860-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: a8c9a922-c060-4225-867c-e584837dfcdf"}
+{"level":"debug","time":"2024-04-10T13:02:25.860-0600","caller":"jobmanager/setup.go:144","msg":"Task id: 4a8e7e55-88a1-44e2-b36c-a9f989515d3d"}
+{"level":"debug","time":"2024-04-10T13:02:25.860-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: 4a8e7e55-88a1-44e2-b36c-a9f989515d3d"}
+{"level":"debug","time":"2024-04-10T13:23:18.009-0600","caller":"cmd/bin.go:298","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-04-10T13:23:18.012-0600","caller":"cmd/bin.go:299","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2024-04-10T13:23:18.012-0600","caller":"cmd/bin.go:305","msg":"Sending request to abort job"}
+{"level":"debug","time":"2024-04-10T13:23:19.559-0600","caller":"cmd/bin.go:314","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2024-04-10T13:23:19.560-0600","caller":"core/lifecycle.go:774","msg":"Context canceled"}
+{"level":"info","time":"2024-04-10T13:23:19.561-0600","caller":"core/lifecycle.go:777","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:23:19.561-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=072cb19a-7826-498d-9bfd-f78067be7a3f\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:23:19.561-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T13:23:19.561-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T13:23:19.562-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T13:23:19.562-0600","caller":"cmd/bin.go:290","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-04-10T13:23:19.562-0600","caller":"cmd/bin.go:318","msg":"Go routines exited within timeout"}
+{"level":"debug","time":"2024-04-10T13:23:54.613-0600","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-10T13:23:54.856-0600","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T13:23:55.682-0600","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T13:23:55.683-0600","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T13:23:55.683-0600","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T13:23:55.683-0600","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T13:23:55.683-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:23:55.683-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:23:55.916-0600","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-10T13:23:55.916-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T13:23:55.916-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:23:55.916-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:23:55.916-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:23:55.916-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:23:55.916-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T13:23:55.916-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:23:55.916-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:23:55.916-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:23:55.917-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T13:23:55.917-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:23:55.917-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T13:23:58.592-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP10160241051712777038630188"}
+{"level":"info","time":"2024-04-10T13:24:00.700-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016059581712777040729111"}
+{"level":"info","time":"2024-04-10T13:24:02.774-0600","caller":"core/lifecycle.go:314","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-04-10T13:24:03.326-0600","caller":"core/lifecycle.go:387","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 0.00 % of your limit. Free trial mins left - 300.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-04-10T13:24:03.326-0600","caller":"core/lifecycle.go:429","msg":"Job ID: 1d139f2d-7629-42f5-b908-ca65111368ea"}
+{"level":"debug","time":"2024-04-10T13:24:03.327-0600","caller":"core/lifecycle.go:435","msg":"User has provided ios/xcui as test type for the job with ID 1d139f2d-7629-42f5-b908-ca65111368ea"}
+{"level":"debug","time":"2024-04-10T13:24:03.329-0600","caller":"receptionmanager/setup.go:225","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-04-10T13:24:03.333-0600","caller":"receptionmanager/setup.go:157","msg":"Uploading yaml : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:24:03.333-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.83 kB, source path /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-04-10T13:24:12.745-0600","caller":"jobmanager/setup.go:124","msg":"Job \u001b[1m\u001b[4m1d139f2d-7629-42f5-b908-ca65111368ea\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:24:12.746-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=1d139f2d-7629-42f5-b908-ca65111368ea\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:24:12.746-0600","caller":"jobmanager/setup.go:133","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-04-10T13:24:12.746-0600","caller":"jobmanager/setup.go:144","msg":"Task id: f7af3fa1-d674-4995-b244-204cde8d132f"}
+{"level":"debug","time":"2024-04-10T13:24:12.746-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: f7af3fa1-d674-4995-b244-204cde8d132f"}
+{"level":"debug","time":"2024-04-10T13:24:12.746-0600","caller":"jobmanager/setup.go:144","msg":"Task id: 9fedcecb-ee91-4244-a0f9-8d69db8d3e94"}
+{"level":"debug","time":"2024-04-10T13:24:12.746-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: 9fedcecb-ee91-4244-a0f9-8d69db8d3e94"}
+{"level":"info","time":"2024-04-10T13:24:53.783-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mClassA/test_1 (8s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:24:56.355-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mClassA/test_2 (11s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:02.875-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 1}\u001b[0m \u001b[2mClassA/test_1 (6s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:06.445-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 1}\u001b[0m \u001b[2mClassA/test_2 (8s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:11.210-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 2}\u001b[0m \u001b[2mClassA/test_1 (5s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:15.619-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 2}\u001b[0m \u001b[2mClassA/test_2 (6s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:20.653-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mClassA/test_3 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:26.118-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mClassB/test_4 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:29.711-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 1}\u001b[0m \u001b[2mClassA/test_3 (6s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:36.425-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 1}\u001b[0m \u001b[2mClassB/test_4 (8s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:38.053-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 2}\u001b[0m \u001b[2mClassA/test_3 (5s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:45.771-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 2}\u001b[0m \u001b[2mClassB/test_4 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:47.069-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mClassB/test_5 (6s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:55.719-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mClassB/test_6 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:25:56.376-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 1}\u001b[0m \u001b[2mClassB/test_5 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:26:05.950-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 1}\u001b[0m \u001b[2mClassB/test_6 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:26:09.437-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 2}\u001b[0m \u001b[2mClassB/test_5 (10s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:26:15.417-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 2}\u001b[0m \u001b[2mClassB/test_6 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:26:25.885-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mLaunchTests/test_7 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:26:36.050-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 1}\u001b[0m \u001b[2mLaunchTests/test_7 (7s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:26:45.636-0600","caller":"terminal/terminal.go:185","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 2}\u001b[0m \u001b[2mLaunchTests/test_7 (7s)\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:26:47.882-0600","caller":"jobmanager/setup.go:199","msg":"\n\nJob status"}
+{"level":"info","time":"2024-04-10T13:26:47.882-0600","caller":"core/lifecycle.go:682","msg":"taskId:f7af3fa1-d674-4995-b244-204cde8d132f has failed with remark: failed\n"}
+{"level":"info","time":"2024-04-10T13:26:47.882-0600","caller":"core/lifecycle.go:682","msg":"taskId:9fedcecb-ee91-4244-a0f9-8d69db8d3e94 has failed with remark: failed\n"}
+{"level":"info","time":"2024-04-10T13:26:47.882-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[101m FAILED \u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    2m0s"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             3m24s"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         7"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m100.00%\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         2"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/JobSummaryManager.go:41","msg":""}
+{"level":"debug","time":"2024-04-10T13:26:47.883-0600","caller":"core/lifecycle.go:774","msg":"Context canceled"}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"core/lifecycle.go:777","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"error","time":"2024-04-10T13:26:47.883-0600","caller":"core/lifecycle.go:780","msg":"2024-04-10T13:23:54-06:00    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-04-10T13:26:47.883-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=1d139f2d-7629-42f5-b908-ca65111368ea\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:26:47.883-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T13:26:47.883-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T13:26:47.883-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T13:26:47.883-0600","caller":"cmd/bin.go:290","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-04-10T13:26:47.883-0600","caller":"cmd/bin.go:329","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2024-04-10T13:27:58.431-0600","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-10T13:27:58.763-0600","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T13:27:59.644-0600","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T13:27:59.645-0600","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T13:27:59.645-0600","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T13:27:59.646-0600","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T13:27:59.646-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:27:59.646-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:27:59.867-0600","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-10T13:27:59.867-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T13:27:59.867-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:27:59.869-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:27:59.869-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:27:59.869-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:27:59.869-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T13:27:59.869-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:27:59.869-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:27:59.869-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:27:59.869-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T13:27:59.869-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:27:59.869-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T13:28:00.546-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016059581712777280539446"}
+{"level":"info","time":"2024-04-10T13:28:04.101-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP1016061471712777284095108"}
+{"level":"error","time":"2024-04-10T13:28:21.702-0600","caller":"core/lifecycle.go:278","msg":"2024-04-10T13:27:58-06:00    error    \u001b[91mERR:HTTP:HOST\u001b[0m     Facing problem in connecting with FALCON_HOST :: http://mobile-resigner-virginia.lambdatest.com:6789/v1.0/xcui/tests - prod  - Error doing test discovery."}
+{"level":"debug","time":"2024-04-10T13:28:21.704-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T13:28:21.704-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T13:28:21.704-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T13:28:21.704-0600","caller":"cmd/bin.go:329","msg":"Exiting application due to error \u001b[91mERR:HTTP:HOST\u001b[0m     Facing problem in connecting with FALCON_HOST :: http://mobile-resigner-virginia.lambdatest.com:6789/v1.0/xcui/tests - prod "}
+{"level":"debug","time":"2024-04-10T13:28:38.929-0600","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-10T13:28:39.168-0600","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T13:28:39.930-0600","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T13:28:39.930-0600","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T13:28:39.930-0600","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T13:28:39.931-0600","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T13:28:39.931-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:28:39.931-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:28:40.137-0600","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-10T13:28:40.138-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T13:28:40.138-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:28:40.139-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:28:40.139-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:28:40.139-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:28:40.139-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T13:28:40.139-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:28:40.139-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:28:40.139-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:28:40.139-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T13:28:40.139-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:28:40.140-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T13:28:40.525-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016059581712777320523205"}
+{"level":"info","time":"2024-04-10T13:28:44.090-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP10160161211712777324087942"}
+{"level":"error","time":"2024-04-10T13:29:01.616-0600","caller":"core/lifecycle.go:278","msg":"2024-04-10T13:28:38-06:00    error    \u001b[91mERR:HTTP:HOST\u001b[0m     Facing problem in connecting with FALCON_HOST :: http://mobile-resigner-virginia.lambdatest.com:6789/v1.0/xcui/tests - prod  - Error doing test discovery."}
+{"level":"debug","time":"2024-04-10T13:29:01.618-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T13:29:01.618-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T13:29:01.618-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T13:29:01.618-0600","caller":"cmd/bin.go:329","msg":"Exiting application due to error \u001b[91mERR:HTTP:HOST\u001b[0m     Facing problem in connecting with FALCON_HOST :: http://mobile-resigner-virginia.lambdatest.com:6789/v1.0/xcui/tests - prod "}
+{"level":"debug","time":"2024-04-10T13:36:48.389-0600","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-10T13:36:48.815-0600","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T13:36:49.782-0600","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T13:36:49.782-0600","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T13:36:49.782-0600","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T13:36:49.783-0600","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T13:36:49.783-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:36:49.783-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:36:50.153-0600","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-10T13:36:50.153-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T13:36:50.153-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:36:50.154-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:36:50.154-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:36:50.154-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:36:50.154-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T13:36:50.154-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:36:50.154-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:36:50.154-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:36:50.154-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T13:36:50.154-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:36:50.154-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T13:36:50.882-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP10160241051712777810874164"}
+{"level":"info","time":"2024-04-10T13:36:54.668-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP10160241051712777814664637"}
+{"level":"error","time":"2024-04-10T13:37:12.726-0600","caller":"core/lifecycle.go:278","msg":"2024-04-10T13:36:48-06:00    error    \u001b[91mERR:HTTP:HOST\u001b[0m     Facing problem in connecting with FALCON_HOST :: http://mobile-resigner-virginia.lambdatest.com:6789/v1.0/xcui/tests - prod  - Error doing test discovery."}
+{"level":"debug","time":"2024-04-10T13:37:12.727-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T13:37:12.728-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-10T13:37:12.728-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-10T13:37:12.728-0600","caller":"cmd/bin.go:329","msg":"Exiting application due to error \u001b[91mERR:HTTP:HOST\u001b[0m     Facing problem in connecting with FALCON_HOST :: http://mobile-resigner-virginia.lambdatest.com:6789/v1.0/xcui/tests - prod "}
+{"level":"debug","time":"2024-04-10T13:40:13.449-0600","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-10T13:40:13.876-0600","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T13:40:14.474-0600","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T13:40:14.475-0600","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T13:40:14.475-0600","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T13:40:14.475-0600","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T13:40:14.476-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:40:14.476-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:40:14.844-0600","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-10T13:40:14.845-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:40:14.845-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T13:40:14.845-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:40:14.847-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T13:40:18.907-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP10160161211712778018898890"}
+{"level":"info","time":"2024-04-10T13:40:25.320-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP1016061471712778025310531"}
+{"level":"info","time":"2024-04-10T13:40:26.726-0600","caller":"core/lifecycle.go:314","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-04-10T13:40:27.243-0600","caller":"core/lifecycle.go:387","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 1.14 % of your limit. Free trial mins left - 296.58\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-04-10T13:40:27.244-0600","caller":"core/lifecycle.go:429","msg":"Job ID: 55610b5b-f12d-4199-9b35-55a9b12d57b3"}
+{"level":"debug","time":"2024-04-10T13:40:27.244-0600","caller":"core/lifecycle.go:435","msg":"User has provided ios/xcui as test type for the job with ID 55610b5b-f12d-4199-9b35-55a9b12d57b3"}
+{"level":"debug","time":"2024-04-10T13:40:27.244-0600","caller":"receptionmanager/setup.go:225","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-04-10T13:40:27.246-0600","caller":"receptionmanager/setup.go:157","msg":"Uploading yaml : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:40:27.247-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.83 kB, source path /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-04-10T13:40:36.553-0600","caller":"jobmanager/setup.go:124","msg":"Job \u001b[1m\u001b[4m55610b5b-f12d-4199-9b35-55a9b12d57b3\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:40:36.553-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=55610b5b-f12d-4199-9b35-55a9b12d57b3\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:40:36.553-0600","caller":"jobmanager/setup.go:133","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-04-10T13:40:36.553-0600","caller":"jobmanager/setup.go:144","msg":"Task id: 951be5cd-5b28-4a4e-9f3a-3f3db9a586e0"}
+{"level":"debug","time":"2024-04-10T13:40:36.553-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: 951be5cd-5b28-4a4e-9f3a-3f3db9a586e0"}
+{"level":"debug","time":"2024-04-10T13:40:36.553-0600","caller":"jobmanager/setup.go:144","msg":"Task id: e1dcc4cb-a809-4f02-a6e2-5363cbceae89"}
+{"level":"debug","time":"2024-04-10T13:40:36.554-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: e1dcc4cb-a809-4f02-a6e2-5363cbceae89"}
+{"level":"error","time":"2024-04-10T13:42:46.543-0600","caller":"jobmanager/setup.go:170","msg":"2024-04-10T13:40:13-06:00    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2024-04-10T13:42:46.545-0600","caller":"jobmanager/setup.go:199","msg":"\n\nJob status"}
+{"level":"info","time":"2024-04-10T13:42:46.545-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:42:46.545-0600","caller":"core/lifecycle.go:774","msg":"Context canceled"}
+{"level":"info","time":"2024-04-10T13:42:46.545-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    0s"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             0s"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"core/lifecycle.go:777","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         7"}
+{"level":"error","time":"2024-04-10T13:42:46.546-0600","caller":"core/lifecycle.go:780","msg":"2024-04-10T13:40:13-06:00    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=55610b5b-f12d-4199-9b35-55a9b12d57b3\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:42:46.546-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T13:42:46.546-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m100.00%\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"debug","time":"2024-04-10T13:42:46.546-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-04-10T13:42:46.546-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"debug","time":"2024-04-10T13:42:46.546-0600","caller":"cmd/bin.go:329","msg":"Exiting application due to error Job aborted."}
+{"level":"debug","time":"2024-04-10T13:42:46.546-0600","caller":"cmd/bin.go:290","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-04-10T13:42:48.619-0600","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2024-04-10T13:42:48.968-0600","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.175} "}
+{"level":"warn","time":"2024-04-10T13:42:49.709-0600","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-10T13:42:49.710-0600","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-10T13:42:49.710-0600","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-10T13:42:49.710-0600","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-10T13:42:49.710-0600","caller":"yamlconfigmanager/setup.go:548","msg":"Custom location for .hyperexecute.yaml specified. Using: ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:42:49.710-0600","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : ./LambdaTestFiles/hyperexecute-xcui.yaml"}
+{"level":"debug","time":"2024-04-10T13:42:49.920-0600","caller":"yamlconfigmanager/setup.go:2050","msg":"Autodetecting test type in files of path : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo"}
+{"level":"debug","time":"2024-04-10T13:42:49.921-0600","caller":"yamlconfigmanager/setup.go:400","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:592","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:396","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:456","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:464","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:481","msg":"Framework:"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:482","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:514","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:525","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:42:49.921-0600","caller":"models/HypertestYamlConfig.go:605","msg":""}
+{"level":"debug","time":"2024-04-10T13:42:49.921-0600","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:42:49.921-0600","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2024-04-10T13:42:53.011-0600","caller":"xcui/xcui.go:120","msg":"Unique Id for App - lt://APP10160161211712778173027784"}
+{"level":"info","time":"2024-04-10T13:42:53.388-0600","caller":"xcui/xcui.go:139","msg":"Unique Id for TestSuite App - lt://APP10160241051712778173410736"}
+{"level":"info","time":"2024-04-10T13:42:55.258-0600","caller":"core/lifecycle.go:314","msg":"Total tests discovered: 7"}
+{"level":"info","time":"2024-04-10T13:42:55.708-0600","caller":"core/lifecycle.go:387","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 1.14 % of your limit. Free trial mins left - 296.58\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2024-04-10T13:42:55.709-0600","caller":"core/lifecycle.go:429","msg":"Job ID: 2c5f3d62-78ac-42f9-8f79-4c833f68f3c2"}
+{"level":"debug","time":"2024-04-10T13:42:55.709-0600","caller":"core/lifecycle.go:435","msg":"User has provided ios/xcui as test type for the job with ID 2c5f3d62-78ac-42f9-8f79-4c833f68f3c2"}
+{"level":"debug","time":"2024-04-10T13:42:55.709-0600","caller":"receptionmanager/setup.go:225","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-04-10T13:42:55.712-0600","caller":"receptionmanager/setup.go:157","msg":"Uploading yaml : /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-04-10T13:42:55.713-0600","caller":"storage/azure.go:55","msg":"Payload size: 2.83 kB, source path /Users/sahilsharma/documents/HackingWithSwift-SAHIL/LambdaTestiOSDemo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-04-10T13:43:04.708-0600","caller":"jobmanager/setup.go:124","msg":"Job \u001b[1m\u001b[4m2c5f3d62-78ac-42f9-8f79-4c833f68f3c2\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:43:04.708-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=2c5f3d62-78ac-42f9-8f79-4c833f68f3c2\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:43:04.708-0600","caller":"jobmanager/setup.go:133","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-04-10T13:43:04.708-0600","caller":"jobmanager/setup.go:144","msg":"Task id: 5dc60e09-6827-4536-b283-6df4163fa426"}
+{"level":"debug","time":"2024-04-10T13:43:04.708-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: 5dc60e09-6827-4536-b283-6df4163fa426"}
+{"level":"debug","time":"2024-04-10T13:43:04.708-0600","caller":"jobmanager/setup.go:144","msg":"Task id: 521dea6f-1d14-4b9f-be73-61496321dc65"}
+{"level":"debug","time":"2024-04-10T13:43:04.708-0600","caller":"jobmanager/setup.go:147","msg":"Sending new task alert to stage manager for taskId: 521dea6f-1d14-4b9f-be73-61496321dc65"}
+{"level":"info","time":"2024-04-10T13:43:39.986-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mClassA/test_2 (13s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:43:43.579-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mClassA/test_1 (20s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:44:01.251-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mClassB/test_4 (19s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:44:07.564-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mClassA/test_3 (20s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:44:23.062-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mClassB/test_6 (18s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:44:30.924-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mClassB/test_5 (20s)\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:44:34.461-0600","caller":"terminal/terminal.go:185","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mLaunchTests/test_7 (9s)\u001b[0m\n"}
+{"level":"debug","time":"2024-04-10T13:44:34.791-0600","caller":"jobmanager/setup.go:199","msg":"\n\nJob status"}
+{"level":"info","time":"2024-04-10T13:44:34.791-0600","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:44:34.791-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m0s\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:44:34.791-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    1m11s"}
+{"level":"info","time":"2024-04-10T13:44:34.791-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2024-04-10T13:44:34.791-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             2m15s"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mTotal Stages\u001b[0m:                         7"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"debug","time":"2024-04-10T13:44:34.792-0600","caller":"core/lifecycle.go:774","msg":"Context canceled"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"core/lifecycle.go:777","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/manager.go:137","msg":"Build Link: \u001b[4m\u001b[34mhttps://appautomation.lambdatest.com/build?jobid=2c5f3d62-78ac-42f9-8f79-4c833f68f3c2\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"debug","time":"2024-04-10T13:44:34.792-0600","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-10T13:44:34.792-0600","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"debug","time":"2024-04-10T13:44:34.792-0600","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-04-10T13:44:34.792-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2024-04-10T13:44:34.793-0600","caller":"jobmanager/JobSummaryManager.go:96","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2024-04-10T13:44:34.793-0600","caller":"jobmanager/JobSummaryManager.go:41","msg":""}
+{"level":"debug","time":"2024-04-10T13:44:34.793-0600","caller":"cmd/bin.go:290","msg":"main: all goroutines have finished."}
