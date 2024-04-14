@@ -1,20 +1,32 @@
 version: "0.2"
+# number of concurrent devices
 concurrency: 2
+# Target OS for the tests
 runson: ios
+# Distributes tests among the concurrent number of tasks.
 autosplit: true
-maxRetries: 2
+# When retryOnFailure set to true, then maxRetries key indicates the number of retries that can be done if test failed
 retryOnFailure: true
+maxRetries: 2
 framework:
+  # Target test framework
   name: "ios/xcui"
   args:
+    # File location of the application under test
     appPath: AppsToTest-rdc/LambdaTestiOSDemo.ipa
+    # File location of the uitests-runner file
     testSuitePath: AppsToTest-rdc/LambdaTestiOSDemoUITests-Runner.ipa
+    # Enables video playback of the tests
     video: true
-    # filters:
-    #   attributes:
-    #   - type: className
-    #     values: ["LambdaTestiOSDemoUITests.LambdaTestiOSDemoUITests"]
+     # Only run tests matching criteria    
+    filters:
+      attributes:
+      - type: className
+        values: ["ClassA"]
+    # When set to `any`, it picks any available devices
     deviceSelectionStrategy: any
+    # Select any iPhones running on iOS 16 major
     devices: ["iPhone.*-16"]
 
+# Job label help you to identify the execution
 jobLabel: ['HyperExecute', 'XCUI', 'Real Device']
